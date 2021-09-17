@@ -16,7 +16,7 @@
 <div align = "left">
   <h4>PREVIEW</h4>  
   <hr style="height:5px; border: 1px solid #ccc;">
-  <img src = "https://cdn.discordapp.com/attachments/797530806243295272/884429201887883274/unknown.png">
+  <img src = "https://cdn.discordapp.com/attachments/886714318471712798/888478781378031636/unknown.png">
 </div>
   
 </div>
