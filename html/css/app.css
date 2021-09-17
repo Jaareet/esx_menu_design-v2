@@ -1,0 +1,138 @@
+/* Coded by Jaareet#0097 */
+html{
+	transform: scale(0.95);
+}
+*{
+	overflow: hidden;
+}
+.pos {
+	position: relative;
+	bottom: 15px;
+}
+hr{
+	border: none;
+	background: white;
+	box-shadow: 0px 0px 5px white;
+	width: 300px;
+	height: 0.5px;
+}
+.menu{
+	font-family: 'Poppins';
+	font-weight: bold;
+	min-width: 330px;
+	color: #fff;
+	position: absolute;
+	padding: 1%;
+	background: black
+}
+.head{
+	display: block;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.menu .head{
+	font-family: _fonts;
+	background: #03030300;
+	text-shadow: 0px 0px 5px white;
+	padding-left: 5px;
+	text-align: left;
+	height: 50px;
+	color: #fcf8f8;
+	font-weight: normal;
+	line-height: 35px;
+	font-size: 1.2rem;
+}
+.menu .menu-items{
+	max-height: 525px;
+	overflow-y: auto;
+	font-weight: 500;
+	background: #21212100;
+}
+.menu .menu-items .menu-item{
+	display: block;
+	padding: 7px;
+	font-size: 14px;
+	text-align: left;
+	text-indent: 5px;
+	margin-top: 5px;
+	background: #8181811c;
+	color: #fdfdfd;
+	border-radius: 0;
+	border: 2px solid #35353500;
+}
+.menu .menu-items .menu-item.selected{
+	background: #050505;
+	border-left: 5px solid white;
+	border-radius: 0.3rem;
+	color: #fff;
+	box-shadow: 0px 0px 4px skyblue inset;
+	animation: fadeIn 0.8s;
+}
+.head > span{
+	position: relative;
+	display: inline-block;
+}
+.head > span::before, .head > span::after{
+	content: "";
+	position: absolute;
+	top: 52%;
+	width: 9999px;
+	height: 0.7px;
+	background: #ffffff;
+}
+.head > span::before{
+	right: 105%;
+	margin-right: 15px;
+}
+.head > span::after{
+	left: 105%;
+	margin-left: 15px;
+}
+.align-left,
+.align-right,
+.align-top-left,
+.align-top-right,
+.align-bottom-left,
+.align-bottom,
+.align-center,
+.align-bottom-right{
+	position: absolute;
+	bottom: 5%;
+	right: 0%;
+}
+::-webkit-scrollbar{
+	width: 8px;
+	border-left: 4px solid #27273300;
+}
+::-webkit-scrollbar-track{
+	background: #27273300;
+	border-left: 4px solid #27273300;
+}
+::-webkit-scrollbar-thumb{
+	background: #1a242d00;
+	border-left: 4px solid #27273300;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: #1a242d00;
+	border-left: 4px solid #27273300;
+}
+@keyframes fadeIn{
+	0%{
+		transform: scale(0) translateX(-50rem);
+		opacity:0;
+   }
+   50%{
+	   opacity: 0.3;
+   }
+   80%{
+	   opacity: 0.5;
+	   transform: scale(1.03);
+   }
+	100%{
+		opacity:1;
+		transform: scale(1);
+   }
+}
